@@ -1,15 +1,39 @@
-## Getting Started
+# Perfil de usuario
 
-First, run the development server:
+Este es un perfil de usuario ficticio, con una breve descripcion, intereses y un formulario de contacto, realizado con React y Nextjs 14
+
+## Instalación
+
+### Clonar el repositorio
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Luzzani/Profile-Next14.git
+cd Profile-Next14
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalar dependencias
+
+```powershell
+npm install
+# o
+yarn install
+```
+
+## Ejecución 
+
+```powershell
+npm run dev
+# o
+yarn dev
+```
+
+Esto iniciará el servidor de desarrollo de Next.js. Abre http://localhost:3000 en tu navegador para ver la aplicación.
+
+
+## Ejecución de Pruebas
+
+```powershell
+npm run test
+# o
+yarn test
+```
