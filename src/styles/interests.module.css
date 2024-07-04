@@ -1,0 +1,47 @@
+.interests {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.interests h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.interests ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0
+}
+
+.interests ul li {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.interests ul li:hover {
+  transform: translateY(-5px);
+  background-color: #9ba2a8;
+}
+
+
+@media (max-width: 768px) {
+  .interests h2 {
+    text-align: left;
+  }
+
+  .interests ul {
+    padding: 0;
+    flex-direction: column;
+  }
+}
